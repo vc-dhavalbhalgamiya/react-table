@@ -5,7 +5,7 @@ const reSplitAlphaNumeric = /([0-9]+)/gm
 // null, undefined, and Infinity
 export const alphanumeric = (rowA, rowB, columnId) => {
   let [a, b] = getRowValuesByColumnID(rowA, rowB, columnId)
- let [a, b] = getRowValuesByColumnID(rowA, rowB, columnId)
+
   // Force to strings (or "" for unsupported types)
   a = toString(a)
   b = toString(b)
